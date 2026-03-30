@@ -1,0 +1,21 @@
+Parameter,Value,Explanation
+ion_mode,negative,"MS ion mode | ""positive"" or ""negative"""
+ms1_abs_int_tol,30000,absolute intensity threshold for MS1 | recommend 30000 for Orbitrap and 1000 for QTOF
+ms2_abs_int_tol,10000,absolute intensity threshold for MS2 | recommend 10000 for Orbitrap and 500 for QTOF
+mz_tol_ms1,0.01,m/z tolerance for MS1 | default is 0.01
+mz_tol_ms2,0.015,m/z tolerance for MS2 | default is 0.015
+mz_tol_alignment,0.01,m/z tolerance for alignment | default is 0.01
+rt_tol_alignment,0.2,RT tolerance for alignment | default is 0.2
+correct_rt,no,whether to perform RT correction (only apply when clear RT drift is known)
+ms2_library_path,/MassCube_DB_2025-12-11.pkl,path to the MS2 library (.msp or .pickle)
+ms2_sim_tol,0.7,MS2 similarity tolerance
+consider_rt,no,"whether to consider RT information for MS2 matching | ""yes"" or ""no"""
+rt_tol_annotation,0.2,RT tolerance for MS2 annotation | default is 0.2 minutes
+fuzzy_search,yes,whether to perform spectral fuzzy search
+sample_normalization,no,whether to normalize the data based on total sample amount/concentration
+signal_normalization,no,whether to run feature-wised normalization to correct systematic signal drift
+run_statistics,yes,whether to perform statistical analysis
+plot_bpc,yes,whether to plot base peak chromatograms
+plot_ms2,yes,whether to plot mirror plots for MS2 matching
+plot_normalization,no,whether to the normalization results
+quant_method,peak_height,"value for quantification and output | ""peak_height"" ""peak_area"" or ""top_average"""
