@@ -2,7 +2,7 @@
  
  Created and last updated by Xiangping Lin, 03/30/26
 
- Course: Introduction to Bioinformatics in Exposomics 03/16 - 04/02/2026 
+ Course: Introduction to Bioinformatics in Exposomics (03/16 - 04/02/2026) 
  
  Lecture 7 Chemical Exposomics: Untargeted Metabolomics Data Analysis Workflow
  
