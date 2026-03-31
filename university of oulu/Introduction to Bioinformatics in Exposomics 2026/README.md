@@ -6,7 +6,9 @@
  
  Lecture 7 Chemical Exposomics: Untargeted Metabolomics Data Analysis Workflow
  
- AUTHOR: [Xiangping Lin, Stanford University] 
+ AUTHOR: [Xiangping Lin, Stanford University]
+
+ Contact: xiangping.lin[at]stanford[dot]edu
  
  For University of Oulu, Oulu, Finland
  
